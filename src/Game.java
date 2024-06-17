@@ -20,6 +20,7 @@ public class Game {
 
             System.out.println("Player2, please introduce a character: ");
             char player2Caracter = player2.next().charAt(0);
+            
             if (player1Caracter == player2Caracter) {
                 System.out.println("equal, keep playing!");
             } else if (player1Caracter == 'R' && player2Caracter == 'P') {
